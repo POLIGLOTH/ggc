@@ -1,0 +1,165 @@
+body {
+    background-image: url(./bg1.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.dark {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 150%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+    animation: tt 10s infinite;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 40px;
+    display: inline;
+    padding-top: 30px;
+    z-index: 3;
+}
+
+article {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    height: 30vh;
+    width: 100%;
+}
+.down{
+    position: absolute;
+    left: 0;right: 0;top: 0;bottom: 0;
+    width: 200px;
+    height: 10vh;
+    margin: auto;
+}
+a{
+    margin-left: 30px;
+    font-size: 2vh;
+    font-weight: bold;
+    color: white;
+    font-family: 'TildaSans', Arial, sans-serif;
+    text-decoration: none;
+    text-shadow: 2px 2px 0px black,
+    2px 0px 0px black,
+    2px -2px 0px black,
+    0px 2px 0px black,
+    0px 0px 0px black,
+    0px -2px 0px black,
+    -2px 2px 0px black,
+    -2px 0px 0px black,
+    -2px -2px 0px black;
+}
+
+a:hover {
+    text-decoration: underline white 2px;
+}
+
+img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 120px;
+    z-index: 4;
+}
+.txt{
+    color: red;
+    font-size: 90px;
+    text-shadow: 3px 3px 3px black,
+    3px 0px 3px black,
+    3px -3px 3px black,
+    0px 3px 3px black,
+    0px 0px 3px black,
+    0px -3px 3px black,
+    -3px 3px 3px black,
+    -3px 0px 3px black,
+    -3px -3px 3px black;
+}
+.error {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 30%;
+    font-size: 415%;
+    font-family: Arial, Helvetica, Verdana;
+    color: rgb(255, 255, 255);
+    z-index: 4;
+    animation: t 1s infinite;
+}
+
+.txt1 {
+    position: absolute;
+    left: -25px;
+    right: 0;
+    top: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 50px;
+    color: white;
+    z-index: 4;
+}
+
+.txt2 {
+    position: absolute;
+    left: -80px;
+    right: 0;
+    top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    height: 50px;
+    color: white;
+    z-index: 4;
+}
+@keyframes t{
+    0%{
+        opacity: 0.0;
+    }
+    50%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 0.0;
+    }
+}
+@keyframes tt{
+    0%{
+        opacity: 0.0;
+    }
+    50%{
+        opacity: 0.3;
+        backdrop-filter: blur(100px);
+    }
+    100%{
+        opacity: 0.0;
+    }
+}

@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(141, 24, 24);
+}
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 40px;
+    display: inline;
+    padding-top: 30px;
+    z-index: 3;
+}
+article{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+footer{
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    height: 550px;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+}
+table{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: solid 3px white;
+    border-radius: 5px;
+    width: 45%;
+    height: 45%;
+    text-align: center;
+}
+a{
+    margin-left: 30px;
+    font-size: 2vh;
+    font-weight: bold;
+    color: white;
+    font-family: 'TildaSans', Arial, sans-serif;
+    text-decoration: none;
+    text-shadow: 2px 2px 0px black,
+    2px 0px 0px black,
+    2px -2px 0px black,
+    0px 2px 0px black,
+    0px 0px 0px black,
+    0px -2px 0px black,
+    -2px 2px 0px black,
+    -2px 0px 0px black,
+    -2px -2px 0px black;
+}
+a:hover {
+    text-decoration: underline white 2px;
+}
+td{
+    border-style: hidden;
+}
+hr{
+    width: 7.3%;
+    border-style: solid;
+    color: white;
+}
+.txt1{
+    font-size: 425%;
+    color: white;
+}
+.txt2{
+    font-size: 125%;
+    color: white;
+}
